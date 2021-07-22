@@ -35,7 +35,7 @@ const SHeader = styled.div`
     }
 
     li:hover {
-      transform: scale(1.05);
+      opacity: 0.5;
     }
   }
 `;

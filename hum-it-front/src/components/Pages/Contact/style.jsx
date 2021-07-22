@@ -7,7 +7,7 @@ const SContact = styled.div`
   margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  border-radius: 20px;
+  border-radius: 12px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
   @media (max-width: 700px) {
     width: 90%;
@@ -35,7 +35,7 @@ const SContact = styled.div`
       #field {
         width: 100%;
         border: none;
-        border-radius: 20px;
+        border-radius: 12px;
         padding: 20px;
         box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
       }
@@ -50,7 +50,7 @@ const SContact = styled.div`
         font-size: 20px;
         margin: auto;
         margin-top: 40px;
-        border-radius: 20px;
+        border-radius: 12px;
         height: 60px;
         width: 50%;
         border: none;
