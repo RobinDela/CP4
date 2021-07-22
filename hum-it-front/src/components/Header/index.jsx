@@ -1,4 +1,5 @@
 import SHeader from './style';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -10,16 +11,16 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <a href='default.asp'>Home</a>
+              <Link to='/'>Home</Link>
             </li>
             <li>
-              <a href='news.asp'>A song stuck in your head?</a>
+              <Link to='/SubmitSong'>A song stuck in your head?</Link>
             </li>
             <li>
-              <a href='contact.asp'>Guess the song</a>
+              <Link to='/GuessSong'>Guess the song</Link>
             </li>
             <li>
-              <a href='about.asp'>Contact</a>
+              <Link to='/Contact'>Contact</Link>
             </li>
           </ul>
         </nav>
