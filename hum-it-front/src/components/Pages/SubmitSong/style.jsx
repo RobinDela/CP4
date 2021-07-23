@@ -12,14 +12,16 @@ const SSubmitSong = styled.div`
     height: 500px;
     border: solid black 1px;
     border-radius: 15px;
-    display: flex;
+    flex-direction: column;
     margin-top: 30px;
     padding: 30px;
     background-color: #7675a8;
-    audio {
-      width: 100px;
-      height: 100px;
+    justify-content: space-between;
+
+
+
     }
+
   }
 `;
 
